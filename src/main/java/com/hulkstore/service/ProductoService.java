@@ -1,12 +1,7 @@
 package com.hulkstore.service;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.Function;
 
 import org.springframework.stereotype.Service;
 
@@ -66,7 +61,7 @@ public class ProductoService{
 	
 	public Integer positionById(Integer id) {
 			
-		for(int i=0; i <= listaProductos.size() -1; i++) {
+		for(int i=0; i <= listaProductos.size()-1; i++) {
 			
 			if(listaProductos.get(i).getIdProducto() == id) {
 				System.out.println("id:" + id + " encontrado en la posición: " + i);

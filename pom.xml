@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.HulkStore</groupId>
-	<artifactId>HulkStore</artifactId>
+	<artifactId>HulkStoreBackEnd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>HulkStore</name>
-	<description>Tienda virtual</description>
+	<name>HulkStoreBackEnd</name>
+	<description>Tienda virtual Hulk Store</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
